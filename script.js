@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function initGame() {
         // Selecionar palavra aleatória
         targetWord = words[Math.floor(Math.random() * words.length)];
-        console.log("Palavra");
+        console.log("Palavra", targetWord);
 
         // Resetar variáveis
         currentRow = 0;
